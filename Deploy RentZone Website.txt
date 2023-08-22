@@ -32,17 +32,17 @@ cd /var/www/html
 sudo unzip rentzone.zip
 
 
-#7. move all the files and folder from the FleetCart directory to the html directory
+#7. move all the files and folder from the Rentzone directory to the html directory
 sudo mv rentzone/* /var/www/html
 
 
-#8. move all the hidden files from the FleetCart diretory to the html directory
+#8. move all the hidden files from the Rentzone diretory to the html directory
 sudo mv rentzone/.well-known /var/www/html
 sudo mv rentzone/.env /var/www/html
 sudo mv rentzone/.htaccess /var/www/html
 
 
-#9. delete the FleetCart and FleetCart.zip folder
+#9. delete the Rentzone and Rentzone.zip folder
 sudo rm -rf rentzone rentzone.zip
 
 
